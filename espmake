@@ -1,0 +1,5 @@
+#!/bin/bash
+make -f ./makeEspArduino/makeEspArduino.mk \
+     ESP_ROOT=./arduino-esp8266 \
+     SKETCH=./src/esp8266-co2-logger.ino \
+     $@
